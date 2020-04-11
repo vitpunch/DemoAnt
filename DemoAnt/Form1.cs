@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace DemoAnt
 {
-    public partial class Form1 : Form
+    public partial class DemoAnt : Form
     {
-        public Form1()
+        Arena arena;
+        public DemoAnt()
         {
             InitializeComponent();
+            arena = new Arena(gameField);
         }
     }
 }
